@@ -1,10 +1,16 @@
 PhantomStig
 ===========
 
-Use PhantomJS without having to write so many callback functions.
+Use PhantomJS in nodejs without having to write so many callback functions.
+
+##Dependencies
+[PhantomJS](http://phantomjs.org/)
+
+##Install
+`npm install --save-dev`
 
 ##Example
-Search Bing
+SearchBing.js
 
 ```
 var PhantomStig = require('phantomstig');
@@ -26,3 +32,5 @@ stig.run(function () {
 });
 
 ```
+####Run:
+`> node SearchBing.js`
