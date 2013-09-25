@@ -27,9 +27,7 @@ stig.waitForElement('.sb_tlst');
 stig.getText('.sb_tlst', function (text) {
   console.log('This was the top result: "' + text + '"');
 });
-stig.run(function () {
-  console.log('SUCCESS!');
-});
+stig.run();
 
 ```
 ####Run:
