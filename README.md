@@ -7,7 +7,7 @@ Use PhantomJS in nodejs without having to write so many callback functions.
 [PhantomJS](http://phantomjs.org/)
 
 ##Install
-`npm install --save-dev`
+`npm install phantomstig --save-dev`
 
 ##Example
 SearchBing.js
