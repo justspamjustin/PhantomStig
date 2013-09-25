@@ -1,13 +1,4 @@
-PhantomStig
-===========
-
-Use PhantomJS without having to write so many callback functions.
-
-##Example
-Search Bing
-
-```
-var PhantomStig = require('phantomstig');
+var PhantomStig = require('./phantomstig');
 var startUrl = 'http://bing.com';
 var searchQuery = 'Junior JS';
 
@@ -24,5 +15,3 @@ stig.getText('.sb_tlst', function (text) {
 stig.run(function () {
   console.log('SUCCESS!');
 });
-
-```

@@ -1,0 +1,18 @@
+{
+  "name": "PhantomStig",
+  "version": "0.1.0",
+  "main": "phantomstig.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justspamjustin/PhantomStig.git"
+  },
+  "author": "Justin Martin",
+  "bugs": {
+    "url": "https://github.com/justspamjustin/PhantomStig/issues"
+  },
+  "keywords": ["PhantomJS", "Callbacks", "PhantomStig"],
+  "devDependencies": {
+    "underscore": "~1.4.4",
+    "node-phantom": "~0.2.3"
+  }
+}
