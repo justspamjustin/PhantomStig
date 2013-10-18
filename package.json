@@ -14,5 +14,9 @@
   "devDependencies": {
     "underscore": "~1.4.4",
     "node-phantom": "~0.2.3"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "node-phantom": "~0.2.3"
   }
 }
