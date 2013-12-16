@@ -1,6 +1,6 @@
 /**
  * https://github.com/justspamjustin/PhantomStig
- * PhantomStig v 0.1.0
+ * PhantomStig v 0.1.1
  */
 
 /*global console:true, module:true, document:true, $:true */
@@ -12,7 +12,10 @@
   var waitForElementTimeout = 10000;
   var waitForInterval = 50;
 
-  var PhantomStig = function () {
+  var defaultOptions = {};
+
+  var PhantomStig = function (options) {
+    this.options = _.defaults(options, defaultOptions);
     this.steps = [];
     this.page = null;
     this.phantom = null;
@@ -80,7 +83,7 @@
               }
             });
           });
-        });
+        }, this.options);
       },
       waitForElement: function (cssSelector, done) {
         this._waitForElementToExist(cssSelector, done);
